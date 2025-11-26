@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "python-google-ai"
+version = "0.1.0"
+description = "A minimal Python project scaffold for Google AI examples."
+authors = [{name = "Your Name", email = "you@example.com"}]
+license = {text = "MIT"}
+readme = "README.md"
+dependencies = ["click>=8.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
