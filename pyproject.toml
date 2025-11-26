@@ -13,3 +13,6 @@ dependencies = ["click>=8.0"]
 
 [project.optional-dependencies]
 dev = ["pytest>=7.0"]
+
+[project.scripts]
+python-google-ai = "python_google_ai.main:main"

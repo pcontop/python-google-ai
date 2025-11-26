@@ -19,5 +19,9 @@ pytest -q
 Run CLI:
 
 ```powershell
-python -m python_google_ai.main "A long text to summarize"
+# using a module runner (preferred to avoid importing submodule directly)
+python -m python_google_ai "A long text to summarize"
+
+# or using the console script after installation:
+python-google-ai "A long text to summarize" --max-len 50
 ```

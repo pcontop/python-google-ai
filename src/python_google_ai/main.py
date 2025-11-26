@@ -17,7 +17,7 @@ def summarize_text(text: str, max_len: int = 100) -> str:
 def main(text, max_len):
     """A very small CLI used for demos.
 
-    Usage: python -m python_google_ai.main "Some text..."
+    Usage: python -m python_google_ai "Some text..." or `python-google-ai` after installation
     """
     if not text:
         click.echo("No text provided. Please pass TEXT argument or pipe text in.")
