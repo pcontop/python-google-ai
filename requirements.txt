@@ -1,4 +1,4 @@
 click>=8.0
 pytest>=7.0
-genai>=1.2.3
-requests>=2.25.1
+google-genai>=0.3.0
+python-dotenv>=1.0
